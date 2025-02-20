@@ -1,0 +1,56 @@
+{
+  "name": "@mtillmann/chapconv",
+  "version": "0.0.1",
+  "main": "index.js",
+  "description": "simple cli tool to convert between chapter formats",
+  "bin": {
+    "chapconv": "index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "type": "module",
+  "scripts": {
+    "lint": "eslint",
+    "prepare": "rimraf chapters-dev && git clone git@github.com:Mtillmann/chapters.git chapters-dev",
+    "build-readme": "node scripts/build-readme.js",
+    "build": "eslint --fix && npm run build-readme",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest"
+  },
+  "keywords": [
+    "podcast",
+    "ffmpeg",
+    "chapters",
+    "youtube",
+    "mkvmerge",
+    "matroska",
+    "webvtt",
+    "pyscenedetect",
+    "vorbis",
+    "apple-chapters",
+    "podlove",
+    "podcast-chapters",
+    "edl",
+    "hls",
+    "scenecut"
+  ],
+  "homepage": "https://github.com/Mtillmann/chapconv",
+  "author": "Martin Tillmann<mtillmann@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/Mtillmann/chapconv/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@mtillmann/chapters": "^0.1.6",
+    "commander": "^13.1.0",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "chapters-dev": "file:../chapters-dev",
+    "eslint": "^9.16.0",
+    "execa": "^9.5.2",
+    "jest": "^29.7.0",
+    "neostandard": "^0.11.9",
+    "rimraf": "^6.0.1"
+  }
+}
