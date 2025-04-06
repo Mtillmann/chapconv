@@ -1,6 +1,6 @@
 {
   "name": "@mtillmann/chapconv",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "description": "simple cli tool to convert between chapter formats",
   "bin": {
@@ -41,7 +41,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@mtillmann/chapters": "^0.1.6",
+    "@mtillmann/chapters": "^0.1.7",
     "commander": "^13.1.0",
     "yargs": "^17.7.2"
   },

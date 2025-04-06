@@ -29,18 +29,19 @@ Options:
   -f, --format <format>     Output format (choices: "applechapters", "applehls",
                             "audible", "chaptersjson", "ffmetadata",
                             "matroskaxml", "mkvmergesimple", "mkvmergexml",
-                            "mp4chaps", "podlovejson", "psc", "pyscenedetect",
-                            "scenecut", "shutteredl", "vorbiscomment", "webvtt",
-                            "youtube", default: "chaptersjson")
+                            "mp4chaps", "podigee", "podlovejson", "psc",
+                            "pyscenedetect", "scenecut", "shutteredl",
+                            "vorbiscomment", "webvtt", "youtube", default:
+                            "chaptersjson")
   -p, --pretty              Pretty print output (where applicable)
   -r, --replace             replace the output file if it exists
   --input-format <format>   Explicitly specify input format (choices:
                             "applechapters", "applehls", "audible",
                             "chaptersjson", "ffmetadata", "ffmpeginfo",
                             "matroskaxml", "mkvmergesimple", "mkvmergexml",
-                            "mp4chaps", "podlovejson", "psc", "pyscenedetect",
-                            "scenecut", "shutteredl", "vorbiscomment", "webvtt",
-                            "youtube")
+                            "mp4chaps", "podigee", "podlovejson", "psc",
+                            "pyscenedetect", "scenecut", "shutteredl",
+                            "vorbiscomment", "webvtt", "youtube")
   -e, --extras <extras...>  Extra output format options (key=value), see
                             https://github.com/Mtillmann/chapters?tab=readme-ov-file#chapterjson-tostring-options
   -h, --help                display help for command
